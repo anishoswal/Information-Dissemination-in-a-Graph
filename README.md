@@ -26,7 +26,7 @@ After we analyze the results, we will integrate the above algorithms into an ens
 The program is split into two modules:<br />
 **1. Netshield**<br />
     - plots - 
-    **Output Plots for Karate and AS Datasets.** <br />
+    **Output Plots for Karate and AS datasets.** <br />
     - alpha.txt - 
     **A small demo graph that is taken as input to the program.** <br />
     - asgraph.txt - 
@@ -39,7 +39,7 @@ The program is split into two modules:<br />
     
 **2. Netmelt_and_Netgel**<br />
     - plots - 
-    **Output Plots for Karate and AS Datasets.** <br />
+    **Output Plots for Karate dataset.** <br />
     - Netshield.py - 
     **The main program containing the algorithm for NetShield.**<br /><br />
 

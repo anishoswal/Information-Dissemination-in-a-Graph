@@ -11,11 +11,11 @@ This folder contains the code for addition and deletion of edges. i.e. NetGel an
         -f, --figure draw the graph before and after the k-edge deletion / addition
 
 ## Sample Commands for program execution:
-For deletion of 5 edges:
+For deletion of 5 edges:<br/>
         ```
 	python gelling_melting.py karate.txt 5 -d -s : -f
         ```
-For addition of 5 edges:
+<br/>For addition of 5 edges:<br/>
         ```
 	python gelling_melting.py karate.txt 5 -g -d -s : -f 
         ```

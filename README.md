@@ -1,7 +1,7 @@
 # CSE 575 Information Dissemination in a Graph
 
 ## Description
-Two cases arise in controlling information dissemination: reduce/contain information flow and increase/enhance dissemination.
+Two cases arise in controlling information dissemination: reduce/contain information flow and increase/enhance dissemination.<br />
 
 1. **Reduce/Contain Dissemination:**
 

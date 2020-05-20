@@ -1,16 +1,14 @@
-This folder contains the code for addition and deletion of edges. i.e. NetGel and NetMelt algoritm respectively
+This folder contains the code for addition and deletion of edges. i.e. NetGel and NetMelt algorithm respectively
 
 ## Required Arguments
         input file name
         num_edges - number of edges to delete / add
 
 ## Optional Arguments
-        ```
         -g, --gell - add/gell graph
         -d, --directed - directed graph
         -s, --separator - SEPARATOR (in the datasets we have chosen, ":" is the separator)
         -f, --figure draw the graph before and after the k-edge deletion / addition
-        ```
 
 ## Sample Commands for program execution:
 For deletion of 5 edges:

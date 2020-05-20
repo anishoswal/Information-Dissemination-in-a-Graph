@@ -8,13 +8,13 @@ Two cases arise in controlling information dissemination: reduce/contain informa
 To reduce the information dissemination in a graph, the two approaches are to remove either nodes or edges from the graph. Both approaches have their applications in different situations.
 For example, in social-media networks, we cannot just remove nodes(users) in most of the cases. So we use edge deletion. In other cases such as containing virus propagation, it is effective to use
 node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm removes k edges from the graph.<br /><br />
-        **- NetShield Algorithm:**<br />
+        1. **NetShield Algorithm:**<br />
         Given a graph, this algorithm finds the k best nodes to be removed to minimize the dissemination in the remaining nodes of the graph.
         This is the core problem for many applications:
             a. In a computer network, we want to find the k best nodes to be removed to minimize the spread of malware.
             b. In a law-enforcement setting, given a network of criminals, we want to neutralize or remove the nodes that will maximally scatter the graph.
         To compute the k nodes to be removed, we need a measure of vulnerability of the graph, a measure of shield-value for a set of k nodes. To obtain that, Netshield algorithm is used.<br /><br />
-        **- NetMelt Algorithm:**<br />
+        2. **NetMelt Algorithm:**<br />
         This algorithm contains the dissemination by removing a given number of edges, i.e. deleting a set of k edges from the graph to minimize the infected population. For example, we can consider\ the distribution of malware over a social network. Deleting user accounts may not be desirable, but deleting edges (‘unfriending’ people) may be more acceptable. We implemented both the methods mentioned above and analyzed which method provides better results for the chosen datasets in the results and evaluations section.
 
 

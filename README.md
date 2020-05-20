@@ -14,7 +14,7 @@ node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm
                 a. In a computer network, we want to find the k best nodes to be removed to minimize the spread of malware.
                 b. In a law-enforcement setting, given a network of criminals, we want to neutralize or remove the nodes that will maximally scatter the graph.
             To compute the k nodes to be removed, we need a measure of vulnerability of the graph, a measure of shield-value for a set of k nodes. To obtain that, Netshield algorithm is used.<br /><br />
-        2. **- NetMelt Algorithm:**<br />
+        **- NetMelt Algorithm:**<br />
             This algorithm contains the dissemination by removing a given number of edges, i.e. deleting a set of k edges from the graph to minimize the infected population. For example, we can consider\ the distribution of malware over a social network. Deleting user accounts may not be desirable, but deleting edges (‘unfriending’ people) may be more acceptable. We implemented both the methods mentioned above and analyzed which method provides better results for the chosen datasets in the results and evaluations section.
 
 

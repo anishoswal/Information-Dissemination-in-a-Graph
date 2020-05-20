@@ -1,8 +1,8 @@
 # CSE 575 Information Dissemination in a Graph
 
-##Description
+## Description
 Two cases arise in controlling information dissemination: reduce/contain information flow and increase/enhance dissemination.
-1. **Reduce/Contain Dissemination:**
+1. **Reduce/Contain Dissemination:**\n
 To reduce the information dissemination in a graph, the two approaches are to remove either nodes or edges from the graph. Both approaches have their applications in different situations.
 For example, in social-media networks, we cannot just remove nodes(users) in most of the cases. So we use edge deletion. In other cases such as containing virus propagation, it is effective to use
 node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm removes k edges from the graph.

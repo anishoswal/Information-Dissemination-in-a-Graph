@@ -26,20 +26,20 @@ After we analyze the results, we will integrate the above algorithms into an ens
 The program is split into two modules:<br />
 **1. Netshield**<br />
     - plots<br />
-    **Output Plots for Karate and AS Datasets.** <br /><br />
+    **Output Plots for Karate and AS Datasets.** <br />
     - alpha.txt<br />
-    **A small demo graph that is taken as input to the program.** <br /><br />
+    **A small demo graph that is taken as input to the program.** <br />
     - asgraph.txt<br />
-    **AS Graph Dataset with nearly 12000 nodes and 25000 edges.**<br /><br />
+    **AS Graph Dataset with nearly 12000 nodes and 25000 edges.**<br />
     - karate.txt<br />
-    **A small dataset with 34 nodes and 57 edges.**<br /><br />
+    **A small dataset with 34 nodes and 57 edges.**<br />
     - gelling_melting.py<br />
     **The main program containing the algorithm for NetMelt and NetGel.**<br /><br />
     
     
 **2. Netmelt_and_Netgel**<br />
     - plots<br />
-    **Output Plots for Karate and AS Datasets.** <br /><br />
+    **Output Plots for Karate and AS Datasets.** <br />
     - Netshield.py<br />
     **The main program containing the algorithm for NetShield.**<br /><br />
 

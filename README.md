@@ -24,15 +24,15 @@ After we analyze the results, we will integrate the above algorithms into an ens
 
 
 The program is split into two modules:
-**1. Netshield**
-**2. Netmelt_and_Netgel**
+**1. Netshield**<br />
+**2. Netmelt_and_Netgel**<br />
 
 ## Tested Running Environment
 **OS:** Ubuntu 18<br />
 **Python:** 3.7
 
 ## Requriements
-All requirements necessary can be found in [a relative link](requirements.txt)
+All requirements necessary can be found in [requirements.txt](requirements.txt)
 
 ```
 sudo pip install -r requirements.txt

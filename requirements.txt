@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+copy
+networkx
+matplotlib
+argparse
+itertools
+

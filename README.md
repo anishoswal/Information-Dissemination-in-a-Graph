@@ -9,7 +9,6 @@ To reduce the information dissemination in a graph, the two approaches are to re
 For example, in social-media networks, we cannot just remove nodes(users) in most of the cases. So we use edge deletion. In other cases such as containing virus propagation, it is effective to use
 node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm removes k edges from the graph.
 
-
     **1. NetShield Algorithm:**
 
 

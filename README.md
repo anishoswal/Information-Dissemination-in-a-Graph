@@ -23,9 +23,9 @@ This algorithm enhances the dissemination by adding a given number of edges. Spe
 After we analyze the results, we will integrate the above algorithms into an ensemble system which would be capable of determining actions that would need to be taken in order to either increase or decrease the flow of information, given the graph.<br /><br />
 
 
-The code is split into two modules:
-1. Netshield
-2. Netmelt_and_Netgel
+The program is split into two modules:
+**1. Netshield**
+**2. Netmelt_and_Netgel**
 
 ## Tested Running Environment
 **OS:** Ubuntu 18<br />

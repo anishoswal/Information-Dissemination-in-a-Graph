@@ -43,6 +43,12 @@ The program is split into two modules:<br />
     - Netshield.py - 
     **The main program containing the algorithm for NetShield.**<br /><br />
 
+
+## Datasets
+- Karate Dataset.
+- ASGraph Dataset.
+
+
 ## Tested Running Environment
 **OS:** Ubuntu 18<br />
 **Python:** 3.7

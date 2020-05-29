@@ -60,4 +60,4 @@ All requirements necessary can be found in [requirements.txt](requirements.txt)
 sudo pip install -r requirements.txt
 ```
 
-Each module has its own directory containing the corresponding code, running instructions(README.md) and sample output plots respectively.
+Each module has its own directory containing the corresponding code, running instructions **(README.md)** and sample output plots respectively.

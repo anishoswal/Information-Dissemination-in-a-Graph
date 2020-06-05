@@ -43,6 +43,7 @@ weakly connected after gelling or meting: 3
 
 ## Plots
 ### Results on the Karate Dataset for 
+<br><br>
 - Before
 ![image](plots/karate_before.png)
 <br><br>

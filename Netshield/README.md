@@ -18,15 +18,7 @@ The values of Max-flows before and after removing K nodes are printed in the res
 If the user wants to provide a graph manually for testing:<br/>
 The values of nodes and edges can be entered at **line 121 ans 123**. 
 
+
 ## Plots
-### Results on the Karate Dataset for 
-- Before
-![image](plots/karate_before.png)
-<br><br>
-
-- After Removing 10 edges
-![image](plots/karate_remove_10_after.png)
-<br><br>
-
-- After Adding 10 edges 
-![image](plots/karate_add_10_after.png)
+### Comparitive Results on different datasets
+![image](plots/netshield_on_different_datasets.png)

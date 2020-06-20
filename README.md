@@ -50,7 +50,7 @@ The program is split into two modules:<br />
 
 
 ## Tested Running Environment
-**OS:** Ubuntu 18<br />
+**OS:** Ubuntu 18.04 LTS<br />
 **Python:** 3.7
 
 ## Requriements

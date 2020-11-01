@@ -5,7 +5,7 @@ Two cases arise in controlling information dissemination: reduce/contain informa
 
 **1. Reduce/Contain Dissemination:**
 
-To reduce the information dissemination in a graph, the two approaches are to remove either nodes or edges from the graph. Both approaches have their applications in different situations.
+To reduce the information dissemination in a graph, the two approaches are to remove either nodes or edges from the graph. Both approaches have their applications in different situations.<br />
 For example, in social-media networks, we cannot just remove nodes(users) in most of the cases. So we use edge deletion. In other cases such as containing virus propagation, it is effective to use
 node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm removes k edges from the graph.<br /><br />
         **- NetShield Algorithm:**<br />
@@ -19,7 +19,7 @@ node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm
 
 
 **2. Increase/Enhance Dissemination:**<br />
-This algorithm enhances the dissemination by adding a given number of edges. Specifically, we want to add a set of k new edges into the graph to maximize the population that adopts the information. For example, we could extend the social network scenario using the recent ‘Arab spring’ which often used Facebook and Twitter for coordinating events: we may want to maximize the spread of a potential piece of information.
+This algorithm enhances the dissemination by adding a given number of edges. Specifically, we want to add a set of k new edges into the graph to maximize the population that adopts the information. For example, we could extend the social network scenario using the recent ‘Arab spring’ which often used Facebook and Twitter for coordinating events: we may want to maximize the spread of a potential piece of information.<br />
 After we analyze the results, we will integrate the above algorithms into an ensemble system which would be capable of determining actions that would need to be taken in order to either increase or decrease the flow of information, given the graph.<br /><br />
 
 

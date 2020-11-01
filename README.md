@@ -15,11 +15,12 @@ node deletion. The Netshield algorithm removes the k nodes and Netmelt algorithm
                 b. In a law-enforcement setting, given a network of criminals, we want to neutralize or remove the nodes that will maximally scatter the graph.<br />
             To compute the k nodes to be removed, we need a measure of vulnerability of the graph, a measure of shield-value for a set of k nodes. To obtain that, Netshield algorithm is used.<br /><br />
         **- NetMelt Algorithm:**<br />
-            This algorithm contains the dissemination by removing a given number of edges, i.e. deleting a set of k edges from the graph to minimize the infected population. For example, we can consider the distribution of malware over a social network. Deleting user accounts may not be desirable, but deleting edges (‘unfriending’ people) may be more acceptable. We implemented both the methods mentioned above and analyzed which method provides better results for the chosen datasets in the results and evaluations section.<br />
+            This algorithm contains the dissemination by removing a given number of edges, i.e. deleting a set of k edges from the graph to minimize the infected population. <br />For example, we can consider the distribution of malware over a social network. Deleting user accounts may not be desirable, but deleting edges (‘unfriending’ people) may be more acceptable. We implemented both the methods mentioned above and analyzed which method provides better results for the chosen datasets in the results and evaluations section.<br />
 
 
 **2. Increase/Enhance Dissemination:**<br />
-This algorithm enhances the dissemination by adding a given number of edges. Specifically, we want to add a set of k new edges into the graph to maximize the population that adopts the information. For example, we could extend the social network scenario using the recent ‘Arab spring’ which often used Facebook and Twitter for coordinating events: we may want to maximize the spread of a potential piece of information.<br />
+This algorithm enhances the dissemination by adding a given number of edges. Specifically, we want to add a set of k new edges into the graph to maximize the population that adopts the information. <br />
+For example, we could extend the social network scenario using the recent ‘Arab spring’ which often used Facebook and Twitter for coordinating events: we may want to maximize the spread of a potential piece of information.<br />
 After we analyze the results, we will integrate the above algorithms into an ensemble system which would be capable of determining actions that would need to be taken in order to either increase or decrease the flow of information, given the graph.<br /><br />
 
 
